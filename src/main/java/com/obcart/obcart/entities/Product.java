@@ -30,4 +30,10 @@ public class Product {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+    public void addToCart(int quantity){
+        this.amount+=quantity;
+    }
+    public void removeFromCart(int quantity){
+        this.amount-=quantity;
+    }
 }
